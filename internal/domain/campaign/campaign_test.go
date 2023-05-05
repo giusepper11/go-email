@@ -10,7 +10,7 @@ import (
 
 var (
 	name     = "Campaign X"
-	content  = "Body"
+	content  = "Body of the campaign"
 	contacts = []string{"abc@abc.com", "cde@cde.com"}
 )
 
