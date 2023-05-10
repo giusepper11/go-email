@@ -19,6 +19,10 @@ func (r *repositoryMock) Save(campaign *Campaign) error {
 	return args.Error(0)
 }
 
+func (r *repositoryMock) Get() ([]Campaign, error) {
+	return nil, nil
+}
+
 var service = Service{}
 
 func generateCampaignFixture() contract.NewCampaign {
